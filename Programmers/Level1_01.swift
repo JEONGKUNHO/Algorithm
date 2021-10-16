@@ -11,6 +11,7 @@ func solution(_ lottos:[Int], _ win_nums:[Int]) -> [Int] {
     var result : [Int] = []
     var rightNum : Int = 0
     var checkNum : Int = 0
+    
     Loop1 : for i in lottos {
         if i == 0{
             checkNum = checkNum+1
