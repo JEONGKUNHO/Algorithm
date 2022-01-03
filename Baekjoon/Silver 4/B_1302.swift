@@ -35,4 +35,4 @@ for (key, value) in dicArr {
 }
 answer.sort()
 
-print(answer[0])
+print(answer[0]) 
