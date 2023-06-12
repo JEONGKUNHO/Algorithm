@@ -12,7 +12,7 @@ import Foundation
  m - 롤러의 길이
  selection - 칠해야 하는 벽의 위치
  */
-
+ 
 func solution(_ n:Int, _ m:Int, _ section:[Int]) -> Int {
     var wall = Array(repeating: 1, count: n)
     var paintCount = 0
