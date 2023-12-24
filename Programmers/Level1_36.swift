@@ -16,7 +16,7 @@ func solution(_ X:String, _ Y:String) -> String {
         if minCount != 0 {
             result += String(repeating: Character(String(i)), count: minCount)
         }
-    }
+    } 
     
     return result.isEmpty
     ? "-1"
